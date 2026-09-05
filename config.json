@@ -1,0 +1,44 @@
+{
+  "position": "top",
+  "height": 24,
+  "start": [
+    {
+      "type": "workspaces",
+      "sort": "index",
+      "favorites": ["~", "1", "2", "3", "4", "5"],
+      "hidden": ["special:magic"]
+    }
+  ],
+  "center": [
+    {
+      "type": "focused",
+      "show_title": false,
+      "icon_size": 16
+    }
+  ],
+  "end": [
+    {
+      "type": "battery",
+      "show_if": "ls /sys/class/power_supply/ | grep --quiet '^BAT'"
+    },
+    {
+      "type": "keyboard",
+      "show_caps": false,
+      "show_num": false,
+      "show_scroll": false,
+      "show_layout": true,
+      "icons": {
+        "layout_map": {
+          "English*": "us",
+          "Russian*": "ru"
+        }
+      }
+    },
+    {
+      "type": "tray"
+    },
+    {
+      "type": "clock"
+    }
+  ]
+}

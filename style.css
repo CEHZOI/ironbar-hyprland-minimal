@@ -1,0 +1,398 @@
+* {
+    font-family: JetBrainsMono Nerd Font;
+    font-size: 14px;
+    color: #e8eaed;
+}
+
+.tray,
+.battery {
+    transition: 0.25s;
+}
+
+.tray * {
+    color: #e8eaed;
+}
+
+.start,
+.end,
+.sysinfo,
+.tray *,
+.box,
+.music *,
+.custom,
+.network_manager {
+    background-color: transparent;
+    border: none;
+}
+
+/* Main modules */
+
+.updates,
+.cava,
+.play-pause,
+.wlogout,
+.sysinfo .item:nth-child(n),
+.network_manager,
+.battery,
+.tray,
+.volume,
+.clock,
+.focused *,
+.script {
+    background: #202124;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: rgba(0, 0, 0, 0.30) 2px 2px 5px 2px;
+    border: none;
+}
+
+/* Spacing */
+
+.updates,
+.cava,
+.play-pause,
+.script,
+.wlogout {
+    margin-right: 10px;
+}
+
+.popup,
+.updates,
+.cava,
+.play-pause,
+.wlogout,
+.sysinfo .item:nth-child(n),
+.network_manager,
+.battery,
+.tray,
+.volume,
+.popup-volume button,
+.clock,
+.popup-clock .calendar,
+.focused *,
+script {
+    border-radius: 10px;
+}
+
+.cava,
+.play-pause,
+.wlogout,
+.sysinfo .item:nth-child(n),
+.network_manager,
+.battery,
+.tray,
+.volume,
+.focused *,
+.script {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.wlogout,
+.sysinfo .item:nth-child(n),
+.network_manager,
+.battery,
+.tray,
+.volume,
+.clock,
+.focused *,
+.script {
+    padding-left: 10px;
+}
+
+.sysinfo .item:nth-child(n),
+.network_manager,
+.battery,
+.tray,
+.volume,
+.clock,
+.focused *,
+.script {
+    padding-right: 10px;
+}
+
+.network_manager,
+.battery,
+.tray,
+.clock,
+.weather,
+.arch {
+    margin-right: 10px;
+}
+
+.network_manager {
+    margin-left: 11px;
+    padding-right: 15px;
+}
+
+.tray,
+.weather {
+    margin-left: 0px;
+}
+
+.script,
+.updates {
+    margin-left: 8px;
+}
+
+.volume,
+.focused *,
+.clock {
+    margin-left: 10px;
+}
+
+/* Hover */
+
+.volume:hover,
+.button:hover,
+.play-pause:hover,
+.clock:hover,
+.wlogout:hover,
+.tray:hover,
+.updates:hover {
+    background: #292a2d;
+}
+
+/* Popup */
+
+.popup {
+    border: 1px solid #5f6368;
+    background-color: #292a2d;
+    padding: 1em;
+}
+
+.cava,
+.play-pause,
+.popup-volume {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.background {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.updates {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.wlogout {
+    padding-right: 7px;
+    padding-top: 2px;
+}
+
+.wlogout * {
+    font-family: Material Symbols Rounded;
+    font-weight: bold;
+}
+
+/* System information */
+
+.sysinfo .item:nth-child(1) {
+    color: #8ab4f8;
+}
+
+.sysinfo .item:nth-child(2) {
+    color: #aeb4c0;
+}
+
+.sysinfo .item:nth-child(3) {
+    color: #c4c9d4;
+}
+
+.sysinfo .item:nth-child(4) {
+    color: #9aaec4;
+}
+
+/* Volume popup */
+
+.popup-volume {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.popup-volume button,
+.popup-clock .calendar {
+    background-color: #292a2d;
+}
+
+/* Clock */
+
+.clock {
+    padding-bottom: 3px;
+}
+
+.popup-clock .calendar-clock {
+    font-size: 2em;
+    padding-bottom: 0.1em;
+}
+
+.popup-clock .calendar {
+    font-weight: bolder;
+}
+
+.popup-clock .calendar .header {
+    border-top: 1px solid #3c4043;
+}
+
+.popup-clock .calendar:selected {
+    background-color: #3c4043;
+}
+
+/* Small modules */
+
+.epoch,
+.arch,
+.volume {
+    margin-right: 2px;
+}
+
+.tray .item {
+    color: #e8eaed;
+}
+
+.tray .item image {
+    color: #e8eaed;
+}
+
+/* Workspaces */
+
+.workspaces {
+    background: #202124;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+
+    padding: 0 10px;
+
+    border: none;
+    border-radius: 10px;
+
+    box-shadow: rgba(0, 0, 0, 0.30) 2px 2px 5px 2px;
+}
+
+.workspaces .item {
+    background: transparent;
+    color: #e8eaed;
+
+    border: none;
+    border-radius: 0;
+
+    margin-right: 8px;
+    padding: 0 4px;
+
+    min-height: 24px;
+    max-height: 24px;
+
+    box-shadow: inset 0 -2px transparent;
+}
+
+.workspaces .item:last-child {
+    margin-right: 0;
+}
+
+.workspaces .item:hover {
+    background: transparent;
+    color: #e8eaed;
+
+    box-shadow: inset 0 -2px #5f6368;
+}
+
+.workspaces .item.focused {
+    background: transparent;
+    color: #8ab4f8;
+
+    box-shadow: inset 0 -2px #ffffff;
+}
+
+.workspaces .item.focused > * {
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Workspace focused item cleanup */
+
+.workspaces .item.focused > * {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+    box-shadow: none;
+}
+
+/* Keyboard layout */
+
+.keyboard {
+    background: #202124;
+    color: #e8eaed;
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 6px;
+
+    padding: 0 6px;
+
+    min-height: 28px;
+
+    border: none;
+    border-radius: 10px;
+
+    box-shadow: rgba(0, 0, 0, 0.30) 2px 2px 5px 2px;
+}
+
+.keyboard button {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.keyboard button:hover {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.keyboard:focus {
+    outline: none;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.30) 2px 2px 5px 2px;
+}
+
+.keyboard button:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.keyboard .layout {
+    color: #e8eaed;
+}
+
+#bar {
+    border: none;
+    outline: none;
+}
+
+.end {
+    gap: 10px;
+}
+
+.keyboard {
+    margin-right: 6;
+}
+
+.tray {
+    margin-right: 0;
+}
+
+.clock {
+    margin-left: 6;
+}
