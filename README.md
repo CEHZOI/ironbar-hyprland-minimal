@@ -2,7 +2,9 @@
 
 A clean and minimal Ironbar configuration for Hyprland.
 
-![Preview](preview.png)
+![Desktop Preview](ironbar.png)
+
+![Ironbar Preview](preview.png)
 
 ## Features
 
