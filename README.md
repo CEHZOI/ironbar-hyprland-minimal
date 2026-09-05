@@ -2,6 +2,8 @@
 
 A clean and minimal Ironbar configuration for Hyprland.
 
+![Preview](preview.png)
+
 ## Features
 
 - Minimal top bar
